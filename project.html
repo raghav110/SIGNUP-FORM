@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup & Login</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <div class="wrapper">
+      <button onclick="login()">Login</button>
+      <button onclick="signup()">Signup</button>
+      <div class="container">
+        <div class="sec-container">
+          <div class="box front">
+            <h2>Login</h2>
+            <div class="inputs">
+              <input
+                type="text"
+                placeholder="Username"
+                class="input text-field"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                class="input text-field"
+              />
+              <input
+                type="submit"
+                value="Login"
+                class="input"
+                onclick="removeCard()"
+              />
+            </div>
+          </div>
+          <div class="box back">
+            <h2>Signup</h2>
+            <div class="sign-up inputs">
+              <input
+                type="text"
+                placeholder="Username"
+                class="input text-field"
+              />
+              <input
+                type="email"
+                placeholder="E-mail"
+                class="input text-field"
+              />
+              <input
+                type="Password"
+                placeholder="Password"
+                class="input text-field"
+              />
+              <input
+                type="submit"
+                value="Signup"
+                class="input"
+                onclick="removeCard()"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>
